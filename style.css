@@ -10,7 +10,7 @@ header {
     margin-bottom: 20px;
     background: #1A4A6C;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
 }
 .button {
     background-color: #36bbce;
@@ -28,7 +28,7 @@ nav {
     border-bottom: 5px solid white;
     padding: 25px 100px 25px 95px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .nav-link {
@@ -36,7 +36,9 @@ nav {
     color: white;
     text-decoration: none;
 }
-
+h2{
+    text-align: center;
+}
 h1 {
     text-align: center;
     color: black;
@@ -59,10 +61,9 @@ p {
 
 article {
     background-color: white;
-    padding: ;
+    padding: 16px;
     width: 400px;
-    margin: ;
-    justify-content: space-between 15px;
+    margin: 16px;
 }
 
 .article-but {
